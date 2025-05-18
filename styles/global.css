@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Doodle+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.Ded_text {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.intro_text {
+  padding-top: 100px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.btn_more {
+  width: 180px;
+  background-color: #fed00e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  padding-left: 4px;
+  margin-top: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.div_land {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 200px;
+}
+
+.div_card {
+  height: 400px;
+  background-color: #e5f1ff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.34);
+}
+
+.quad_img {
+  height: 400px;
+}
+
+.head_card {
+  font-size: 50px;
+  font-weight: 800;
+  color: blue;
+  padding: 20px;
+}
+
+.head_icon {
+  color: #fed00e;
+}
+
+.caro {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.service {
+  margin-top: 150px;
+  padding-top: 100px;
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: #1e1e1e;
+  padding-bottom: 100px;
+}
+
+.serv_text {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.serv_div {
+  background-color: white;
+  border-radius: 8px;
+  padding: 50px;
+}
+
+.linez {
+  border: 1px solid black;
+}
+
+.price {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.fopo {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 40px;
+}
+
+.icon_he {
+  height: 50px;
+  width: 50px;
+}
+
+.subt {
+  color: black;
+}
+
+.hh {
+  font-size: 570px;
+}
+
+.serc_img {
+  height: 40px;
+}
+
+.tey {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.blacText {
+  background-color: white;
+}
+
+.serv_div {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.service_div {
+  margin-top: 120px;
+  margin-bottom: 150px;
+}
+
+.serc_image {
+  height: 450px;
+}
+
+.service_text {
+  background-color: #443dfc;
+  color: white;
+  padding: 70px;
+}
+
+.office_text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.div_cl {
+  background-color: #E5F1FF;
+  border-radius: 10px;
+}
+
+.Pro {
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.deliver {
+  font-size: 50px;
+  margin-top: 80px;
+  font-weight: 700;
+}
+
+.del_det {
+  margin-top: 50px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.about_div {
+  max-width: 1200px;
+  text-align: left;
+  margin-top: 100px;
+}
+
+.exc {
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.compant {
+  font-size: 20px;
+}
+
+.blu {
+  background-color: rgba(88, 169, 251, 0.136);
+  padding-bottom: 100px;
+}
+
+.clenn {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  max-width: 1200px;
+  border-radius: 30px;
+}
+
+.mission {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.mission_state {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.wind_head {
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 80px;
+}
+
+.window_img {
+  max-width: 900px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.sub_text_wind {
+  color: gray;
+  text-align: left;
+}
+
+.wind_sub_hesd {
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.window_div {
+  max-width: 900px;
+}
+
+.bold_div {
+  font-weight: 500;
+}
+
+.winnyy {
+  height: 460px;
+  width: 300px;
+  margin-left: 50px;
+}/*# sourceMappingURL=global.css.map */
