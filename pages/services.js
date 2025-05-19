@@ -6,7 +6,7 @@ import Schedule from "./component/schedule";
 import { getCalApi } from "@calcom/embed-react";
 import FaqSection from "./component/faq";
 
-export default function services() {
+export default function Services() {
   /* First make sure that you have installed the package */
 
   /* If you are using yarn */

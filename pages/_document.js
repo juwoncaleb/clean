@@ -5,10 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Meta Pixel Code */}
-        <script
-          type="text/javascript"
-          src="https://js.paystack.co/v1/inline.js"
-        />
+       
        
         {/* End Meta Pixel Code */}
         

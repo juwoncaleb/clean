@@ -2,6 +2,7 @@ import React from "react";
 import Headdy from "./component/head";
 import Footer from "./component/footer";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function about() {
   return (
@@ -100,8 +101,9 @@ export default function about() {
 
             {/* CTA Button aligned to left */}
             <div className="text-left">
-              <a
-                href="/services"
+              <Link href="/services">
+               <p
+                
                 className="inline-flex items-center bg-yellow-400 text-black font-medium px-6 py-3 rounded-md hover:bg-yellow-300 transition"
               >
                 View all services
@@ -118,7 +120,9 @@ export default function about() {
                     d="M9 5l7 7-7 7"
                   />
                 </svg>
-              </a>
+              </p>
+              </Link>
+             
             </div>
           </div>
 
