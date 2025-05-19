@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const Headdy = () => {
@@ -29,15 +30,22 @@ const Headdy = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex space-x-8">
+       <Link href='./'>
           <a href="#home" className="text-base hover:text-yellow-500">
             Home
-          </a>
+          </a></Link>
+
+         <Link href='./services'>
           <a href="#services" className="text-base hover:text-yellow-500">
             Services
           </a>
+         </Link>
+         <Link href='./about'>
           <a href="#about" className="text-base hover:text-yellow-500">
             About
           </a>
+         </Link>
+         
           <a href="#contact" className="text-base hover:text-yellow-500">
             Contact
           </a>
