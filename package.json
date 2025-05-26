@@ -12,7 +12,7 @@
     "@calcom/embed-react": "^1.5.3",
     "@chakra-ui/next-js": "^2.2.0",
     "@contentful/rich-text-html-renderer": "^16.5.2",
-    "@contentful/rich-text-react-renderer": "^15.21.2",
+    "@contentful/rich-text-react-renderer": "^15.22.11",
     "@contentful/rich-text-types": "^16.5.2",
     "@strapi/blocks-react-renderer": "^1.0.1",
     "@syncfusion/ej2": "^19.4.48",

@@ -21,7 +21,7 @@ const Headdy = () => {
 
   return (
     <header
-      className={`fixed blacText top-0 left-0 w-full transition-all duration-300 ease-in-out z-50 
+      className={`fixed mb-20 blacText top-0 left-0 w-full transition-all duration-300 ease-in-out z-50 
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
@@ -31,24 +31,29 @@ const Headdy = () => {
         {/* Navigation */}
         <nav className="hidden md:flex space-x-8">
        <Link href='./'>
-          <a href="#home" className="text-base hover:text-yellow-500">
+          <p href="#home" className="text-base hover:text-yellow-500">
             Home
-          </a></Link>
+          </p></Link>
 
          <Link href='./services'>
-          <a href="#services" className="text-base hover:text-yellow-500">
+          <p href="#services" className="text-base hover:text-yellow-500">
             Services
-          </a>
+          </p>
          </Link>
          <Link href='./about'>
-          <a href="#about" className="text-base hover:text-yellow-500">
+          <p href="#about" className="text-base hover:text-yellow-500">
             About
-          </a>
+          </p>
+         </Link>
+          <Link href='./price'>
+          <p href="#about" className="text-base hover:text-yellow-500">
+            Price
+          </p>
          </Link>
          
-          <a href="#contact" className="text-base hover:text-yellow-500">
+          <p href="#contact" className="text-base hover:text-yellow-500">
             Contact
-          </a>
+          </p>
         </nav>
 
         {/* Get Quote Button */}
