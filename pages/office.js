@@ -4,64 +4,79 @@ import TestimonialsPage from "./component/tesimonial";
 import FaqSection from "./component/faq";
 import Footer from "./component/footer";
 
-export default function office() {
+export default function OfficeCleaning() {
   return (
     <div>
       <Headdy />
       <center>
         <div className="window_div">
-          <p className="wind_head mb-2">Window Cleaning</p>
+          <p className="wind_head mb-2">Office Cleaning</p>
           <p className="sub_text_wind">
-            Professional Window Cleaning Keep your workspace spotless and
-            productive with our thorough office cleaning services.
+            Maintain a spotless, healthy, and productive workspace with our
+            professional office cleaning services tailored to your business
+            needs.
           </p>
-          <img className="window_img" src="./window.avif" />
-          <p className="wind_sub_hesd">We give the best services</p>
+          <img
+            className="window_img"
+            src="./shoo.jpg"
+            alt="Office Cleaning"
+          />
+
+          <p className="wind_sub_hesd">Why Choose Our Office Cleaning?</p>
           <p className="sub_text_wind mt-6">
-            We are committed to delivering exceptional cleaning services that
-            exceed your expectations. Our experienced and professional staff
-            utilizes state-of-the-art equipment and eco-friendly products to
-            ensure a spotless environment. We offer customizable cleaning plans
-            tailored to your specific needs, whether for a workspace or home.
-            Our attention to detail and dedication to customer satisfaction
-            guarantee that you receive the highest quality service every time.
-            Trust us to create a clean, healthy, and inviting space for you and
-            your team.
+            We provide comprehensive office cleaning solutions using
+            eco-friendly products and modern equipment. Our trained staff
+            ensures every corner of your workspace—from desks to conference
+            rooms—is clean, sanitized, and inviting. Customized cleaning
+            schedules and attention to detail make sure your office environment
+            promotes productivity and wellness.
           </p>
-          <p className="wind_sub_hesd">Service overview</p>
+
+          <p className="wind_sub_hesd">Service Overview</p>
           <p className="sub_text_wind mt-6">
-            We offer a comprehensive range of cleaning services designed to meet
-            the diverse needs of our clients. Our services include regular
-            office cleaning, deep cleaning, and specialized cleaning for
-            carpets, windows, and upholstery.
+            Our office cleaning services include daily or periodic cleaning of
+            workstations, floors, restrooms, kitchens, and common areas. We
+            focus on disinfecting high-touch surfaces to reduce the spread of
+            germs and allergens.
           </p>
-          <div className=" grid grid-cols-2 mt-16">
-            <div className="mt-10 ">
+
+          <div className="grid grid-cols-2 mt-16">
+            <div className="mt-10">
               <p className="text-left mt-6">
-                <span className="bold_div">General cleaning</span>: Dusting,
-                vacuuming, and mopping of all common areas, workstations, and
-                reception areas.
+                <span className="bold_div">Dusting & Vacuuming</span>: Cleaning
+                desks, shelves, and floors to keep your office free from dust
+                and allergens.
               </p>
               <p className="text-left mt-6">
-                <span className="bold_div">Trash removal</span>: Emptying trash
-                bins and replacing liners to keep your office clean and
-                odor-free.
+                <span className="bold_div">Trash Removal</span>: Regularly
+                emptying bins and managing waste to maintain cleanliness and
+                odor control.
               </p>
               <p className="text-left mt-6">
-                <span className="bold_div">Surface disinfection</span>: Wiping
-                down and disinfecting high-touch surfaces such as desks,
-                keyboards, doorknobs, and light switches to reduce the spread of
-                germs.
+                <span className="bold_div">Surface Disinfection</span>: Wiping
+                down keyboards, doorknobs, phones, and other high-touch areas to
+                reduce bacteria and viruses.
+              </p>
+              <p className="text-left mt-6">
+                <span className="bold_div">Restroom & Kitchen Cleaning</span>:
+                Thorough cleaning and sanitizing of restrooms and break areas to
+                ensure hygiene and comfort.
               </p>
             </div>
-            <img className="winnyy" src="./winy.avif" />
+            <img
+              className="winnyy"
+              src="./wow.jpg"
+              alt="Office Cleaning Service"
+            />
           </div>
         </div>
+
         <TestimonialsPage />
         <FaqSection />
+
         <section className="py-12 mt-20 px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-            Other services
+            Other Services
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {/* Office cleaning */}
@@ -123,7 +138,7 @@ export default function office() {
           </div>
         </section>
       </center>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -4,7 +4,6 @@ import Footer from "./component/footer";
 import FixedHeader from "./component/header";
 import { getEntries } from "../lib/contentful";
 
-
 const images = ["/h1.avif", "/h2.avif", "/h3.avif", "/h4.avif", "/h5.avif"];
 export async function getStaticProps() {
   const entries = await client.getEntries({
@@ -20,8 +19,6 @@ export async function getStaticProps() {
 }
 
 export default function LandingPage() {
-
-  
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -33,7 +30,7 @@ export default function LandingPage() {
 
   return (
     <div>
-      <FixedHeader/>
+      <FixedHeader />
       <div>
         <div className="relative min-h-screen overflow-hidden">
           {images.map((img, i) => (
@@ -50,94 +47,102 @@ export default function LandingPage() {
             {/* Left Content */}
             <div className="w-full md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-5xl font-bold mb-6">
-              You Deserve a Home That Feels Like a Sanctuary             </h1>
+                You Deserve a Home That Feels Like a Sanctuary{" "}
+              </h1>
               <p className="text-lg max-w-md">
-                Experience top-notch cleaning services that cater to 
-                residential and commercial needs.
+                Experience top-notch cleaning services that cater to residential
+                and commercial needs. We don't cut corners, we clean them!
               </p>
             </div>
 
             {/* Right Form */}
-          {/* Right Form */}
-          <div className="w-full md:w-1/2 bg-white text-black rounded-xl shadow-lg p-8 max-w-md">
-  <h2 className="text-2xl font-bold mb-6">Request a service</h2>
-  <form className="space-y-5">
-    <div>
-      <label className="block text-base font-medium mb-2">Name</label>
-      <input
-        type="text"
-        placeholder="Dennis Barrett"
-        className="w-full p-3 border rounded-lg text-base"
-      />
-    </div>
-    <div>
-      <label className="block text-base font-medium mb-2">Email</label>
-      <input
-        type="email"
-        placeholder="example@gmail.com"
-        className="w-full p-3 border rounded-lg text-base"
-      />
-    </div>
-    <div className="flex gap-4">
-      <div className="flex-1">
-        <label className="block text-base font-medium mb-2">Phone</label>
-        <input
-          type="tel"
-          placeholder="+1234567890"
-          className="w-full p-3 border rounded-lg text-base"
-        />
-      </div>
-      <div className="flex-1">
-        <label className="block text-base font-medium mb-2">Select service</label>
-        <select className="w-full p-3 border rounded-lg text-base">
-          <option>Select service</option>
-          <option>Home cleaning</option>
-          <option>Commercial cleaning</option>
-          <option>Disinfection</option>
-        </select>
-      </div>
-    </div>
-    <div className="flex gap-4">
-      <div className="flex-1">
-        <label className="block text-base font-medium mb-2">Location</label>
-        <input
-          type="text"
-          placeholder="Los Angeles"
-          className="w-full p-3 border rounded-lg text-base"
-        />
-      </div>
-      <div className="flex-1">
-        <label className="block text-base font-medium mb-2">Date</label>
-        <input
-          type="text"
-          placeholder="dd-mm-yy"
-          className="w-full p-3 border rounded-lg text-base"
-        />
-      </div>
-    </div>
-    <button
-      type="submit"
-      className="w-full mt-5 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 rounded-lg text-base"
-    >
-      Submit
-    </button>
-  </form>
-</div>
-
-
+            {/* Right Form */}
+            <div className="w-full md:w-1/2 bg-white text-black rounded-xl shadow-lg p-8 max-w-md">
+              <h2 className="text-2xl font-bold mb-6">Request a service</h2>
+              <form className="space-y-5">
+                <div>
+                  <label className="block text-base font-medium mb-2">
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Dennis Barrett"
+                    className="w-full p-3 border rounded-lg text-base"
+                  />
+                </div>
+                <div>
+                  <label className="block text-base font-medium mb-2">
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="example@gmail.com"
+                    className="w-full p-3 border rounded-lg text-base"
+                  />
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex-1">
+                    <label className="block text-base font-medium mb-2">
+                      Phone
+                    </label>
+                    <input
+                      type="tel"
+                      placeholder="+1234567890"
+                      className="w-full p-3 border rounded-lg text-base"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <label className="block text-base font-medium mb-2">
+                      Select service
+                    </label>
+                    <select className="w-full p-3 border rounded-lg text-base">
+                      <option>Select service</option>
+                      <option>Home cleaning</option>
+                      <option>Commercial cleaning</option>
+                      <option>Disinfection</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="flex gap-4">
+                  <div className="flex-1">
+                    <label className="block text-base font-medium mb-2">
+                      Location
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="Los Angeles"
+                      className="w-full p-3 border rounded-lg text-base"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <label className="block text-base font-medium mb-2">
+                      Date
+                    </label>
+                    <input
+                      type="text"
+                      placeholder="dd-mm-yy"
+                      className="w-full p-3 border rounded-lg text-base"
+                    />
+                  </div>
+                </div>
+                <button
+                  type="submit"
+                  className="w-full mt-5 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 rounded-lg text-base"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
           </div>
         </div>
         <div>
           <div className="flex intro_text gap-20 justify-between">
             <p className="Ded_text">
-              We are a dedicated cleaning company providing top-quality services
-              to our clients
+             We are a dedicated cleaning company where cleanliness meets class.
             </p>
             <div>
               <p>
-                Our company is committed to delivering top-quality services to
-                our clients and we are an experienced team specializing in both
-                residential and commercial cleaning.
+             Klinvault Ltd is committed to providing high-quality, reliable, and affordable cleaning services. With a strong commitment to excellence and customer satisfaction, our team is ready to ensure your facilities are maintained in pristine condition.
               </p>
               <button className="flex gap-4 btn_more">
                 Get Started{" "}
@@ -196,7 +201,7 @@ export default function LandingPage() {
               />
               <p className="fopo">Office Cleaning</p>
             </div>
-            <p>lrjgefjce</p>
+            <p>End of tenancy Cleaning</p>
           </div>
           <hr className="mt-10 mb-10 linez" />
           <div className="flex justify-between">
@@ -210,7 +215,7 @@ export default function LandingPage() {
               />
               <p className="fopo">Window Cleaning</p>
             </div>
-            <p>lrjgefjce</p>
+            <p>After builders cleaning</p>
           </div>
           <hr className="mt-10 mb-10 linez" />
           <div className="flex justify-between">
@@ -224,7 +229,7 @@ export default function LandingPage() {
               />
               <p className="fopo">Carpet Cleaning</p>
             </div>
-            <p>lrjgefjce</p>
+            <p>Professional carpet cleaning</p>
           </div>
           <hr className="mt-10 mb-10 linez" />
           <div className="flex justify-between">
@@ -238,7 +243,7 @@ export default function LandingPage() {
               />
               <p className="fopo">Bedroom Cleaning</p>
             </div>
-            <p>lrjgefjce</p>
+            <p>One-off deep cleaning, Appliance cleaning, e.g., Oven, Fridge, etc. Routine cleaning</p>
           </div>
           <hr className="mt-10 mb-10 linez" />
         </div>
@@ -275,4 +280,3 @@ export default function LandingPage() {
     </div>
   );
 }
-

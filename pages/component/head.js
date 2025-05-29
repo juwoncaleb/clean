@@ -36,22 +36,22 @@ const Headdy = () => {
           </p></Link>
 
          <Link href='./services'>
-          <p href="#services" className="text-base hover:text-yellow-500">
+          <p href="services" className="text-base hover:text-yellow-500">
             Services
           </p>
          </Link>
          <Link href='./about'>
-          <p href="#about" className="text-base hover:text-yellow-500">
+          <p href="about" className="text-base hover:text-yellow-500">
             About
           </p>
          </Link>
           <Link href='./price'>
-          <p href="#about" className="text-base hover:text-yellow-500">
+          <p href="price" className="text-base hover:text-yellow-500">
             Price
           </p>
          </Link>
          
-          <p href="#contact" className="text-base hover:text-yellow-500">
+          <p href="contact" className="text-base hover:text-yellow-500">
             Contact
           </p>
         </nav>

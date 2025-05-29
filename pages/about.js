@@ -11,14 +11,14 @@ export default function about() {
       <center>
         <div className="blu">
           <div className="about_div">
-            <div className="grid gap-10 mt-20 grid-cols-2">
-              <p className="exc">Excellence in every clean</p>
+            <div className="grid gap-10 mt-20  py-10 grid-cols-2">
+              <p className="exc">At KlinVault Limited</p>
               <p className="compant">
-                At our company, we believe that every clean matters. Our
-                commitment to excellence is reflected in our meticulous
-                attention to detail and the high standards we uphold in every
-                service we provide. From residential spaces to commercial
-                properties.
+                 we believe a clean space is a happy, healthy
+                space. We are founded with a passion for excellence and
+                attention to detail. Our mission is to deliver top-quality
+                cleaning services that give our clients peace of mind and more
+                time to focus on what matters most.
               </p>
             </div>
             <center>
@@ -61,10 +61,7 @@ export default function about() {
               priority
             </h2>
             <p className="text-gray-600 mb-6">
-              We prioritize open communication and responsiveness to your needs.
-              We value your feedback and continuously strive to improve our
-              services, ensuring that you receive the highest level of care and
-              attention.
+             We provide professional cleaning services including end-of-tenancy, after-builders, deep cleaning, routine maintenance, carpet and upholstery care, and appliance cleaning. Our trained team delivers reliable, eco-friendly solutions tailored for homeowners, tenants, landlords, and businesses.
             </p>
 
             {/* Feature List */}
@@ -102,27 +99,23 @@ export default function about() {
             {/* CTA Button aligned to left */}
             <div className="text-left">
               <Link href="/services">
-               <p
-                
-                className="inline-flex items-center bg-yellow-400 text-black font-medium px-6 py-3 rounded-md hover:bg-yellow-300 transition"
-              >
-                View all services
-                <svg
-                  className="ml-2 w-4 h-4"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </p>
+                <p className="inline-flex items-center bg-yellow-400 text-black font-medium px-6 py-3 rounded-md hover:bg-yellow-300 transition">
+                  View all services
+                  <svg
+                    className="ml-2 w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </p>
               </Link>
-             
             </div>
           </div>
 
@@ -211,7 +204,6 @@ export default function about() {
             </div>
           </div>
         </section>
-        
       </center>
 
       <Footer />

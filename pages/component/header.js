@@ -31,13 +31,13 @@ const FixedHeader = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <a href="#home" className="text-base hover:text-yellow-500">
+          <a href="home" className="text-base hover:text-yellow-500">
             Home
           </a>
-          <a href="#services" className="text-base hover:text-yellow-500">
+          <a href="services" className="text-base hover:text-yellow-500">
             Services
           </a>
-          <a href="#about" className="text-base hover:text-yellow-500">
+          <a href="about" className="text-base hover:text-yellow-500">
             About
           </a>
           <Link href="./price">
@@ -46,7 +46,7 @@ const FixedHeader = () => {
             </p>
           </Link>
 
-          <a href="#contact" className="text-base hover:text-yellow-500">
+          <a href="contact" className="text-base hover:text-yellow-500">
             Contact
           </a>
         </nav>

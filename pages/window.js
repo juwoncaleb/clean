@@ -12,49 +12,55 @@ export default function window() {
         <div className="window_div">
           <p className="wind_head mb-2">Window Cleaning</p>
           <p className="sub_text_wind">
-            Professional Window Cleaning Keep your workspace spotless and
-            productive with our thorough office cleaning services.
+            Clean windows can completely transform the look and feel of any
+            space—bringing in more natural light, improving your view, and
+            enhancing the overall cleanliness of your home or business.
           </p>
           <img className="window_img" src="./window.avif" />
-          <p className="wind_sub_hesd">We give the best services</p>
+         
+          <p className="wind_sub_hesd">Service Overview</p>
           <p className="sub_text_wind mt-6">
-            We are committed to delivering exceptional cleaning services that
-            exceed your expectations. Our experienced and professional staff
-            utilizes state-of-the-art equipment and eco-friendly products to
-            ensure a spotless environment. We offer customizable cleaning plans
-            tailored to your specific needs, whether for a workspace or home.
-            Our attention to detail and dedication to customer satisfaction
-            guarantee that you receive the highest quality service every time.
-            Trust us to create a clean, healthy, and inviting space for you and
-            your team.
+            Our professional window cleaning service delivers spotless,
+            streak-free results every time. We use safe, eco-friendly products
+            and the right tools for each window type—ensuring a clear view,
+            improved natural light, and a fresh look for your home or business.
+            Whether it’s a one-time clean or part of regular maintenance, we
+            make sure your windows shine.
           </p>
-          <p className="wind_sub_hesd">Service overview</p>
-          <p className="sub_text_wind mt-6">
-            We offer a comprehensive range of cleaning services designed to meet
-            the diverse needs of our clients. Our services include regular
-            office cleaning, deep cleaning, and specialized cleaning for
-            carpets, windows, and upholstery.
-          </p>
-          <div className=" grid grid-cols-2 mt-16">
-            <div className="mt-10 ">
+          <div className="grid grid-cols-2 mt-16">
+            <div className="mt-10">
               <p className="text-left mt-6">
-                <span className="bold_div">General cleaning</span>: Dusting,
-                vacuuming, and mopping of all common areas, workstations, and
-                reception areas.
+                <span className="bold_div">Interior & Exterior Cleaning</span>:
+                Streak-free cleaning for both sides of your windows, improving
+                clarity and light.
               </p>
               <p className="text-left mt-6">
-                <span className="bold_div">Trash removal</span>: Emptying trash
-                bins and replacing liners to keep your office clean and
-                odor-free.
+                <span className="bold_div">Sills, Frames & Tracks</span>: We
+                remove dust, dirt, and buildup from window sills, frames, and
+                tracks to ensure a complete clean.
               </p>
               <p className="text-left mt-6">
-                <span className="bold_div">Surface disinfection</span>: Wiping
-                down and disinfecting high-touch surfaces such as desks,
-                keyboards, doorknobs, and light switches to reduce the spread of
-                germs.
+                <span className="bold_div">Glass Doors & Panels</span>: We also
+                clean sliding doors, balcony glass, and internal partitions for
+                a consistent shine throughout your space.
+              </p>
+              <p className="text-left mt-6">
+                <span className="bold_div">Safe on All Window Types</span>: From
+                standard panes to skylights and floor-to-ceiling windows, we use
+                the right tools for every surface.
+              </p>
+              <p className="text-left mt-6">
+                <span className="bold_div">Eco-Friendly Products</span>: Our
+                cleaning solutions are safe for your home, your family, and the
+                environment.
+              </p>
+              <p className="text-left mt-6">
+                <span className="bold_div">High Access Areas</span>: We handle
+                hard-to-reach windows with professional equipment to ensure no
+                spot is missed.
               </p>
             </div>
-            <img className="winnyy" src="./winy.avif" />
+            <img className="winnyy" src="./sa.jpg" />
           </div>
         </div>
         <TestimonialsPage />
@@ -123,7 +129,7 @@ export default function window() {
           </div>
         </section>
       </center>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

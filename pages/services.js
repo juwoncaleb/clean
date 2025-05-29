@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Headdy from "./component/head";
 import Footer from "./component/footer";
-import PricingSection from "./component/price";
 import Schedule from "./component/schedule";
 import { getCalApi } from "@calcom/embed-react";
 import FaqSection from "./component/faq";
+import Link from "next/link";
 
 export default function Services() {
   /* First make sure that you have installed the package */
@@ -41,34 +41,42 @@ export default function Services() {
         </div>
         <div>
           <div className="grid grid-cols-4 gap-8">
-            <div className="div_cl">
-              <img src="./car.avif" />
-              <p className="office_text">Carpet Cleaning</p>
-              <p className="Pro">
-                Professional Office Cleaning Keep your workspace spotless and
-              </p>
-            </div>
-            <div className="div_cl">
-              <img src="./win.avif" />
-              <p className="office_text">Window Cleaning</p>
-              <p className="Pro">
-                Professional Office Cleaning Keep your workspace spotless and
-              </p>
-            </div>
-            <div className="div_cl">
-              <img src="./off.avif" />
-              <p className="office_text">Office Cleaning</p>
-              <p className="Pro">
-                Professional Office Cleaning Keep your workspace spotless and
-              </p>
-            </div>
-            <div className="div_cl">
-              <img src="./bed.avif" />
-              <p className="office_text">Bedroom Cleaning</p>
-              <p className="Pro">
-                Professional Office Cleaning Keep your workspace spotless and
-              </p>
-            </div>
+            <Link href="./carpert">
+              <div className="div_cl">
+                <img src="./car.avif" />
+                <p className="office_text">Carpet Cleaning</p>
+                <p className="Pro">
+                  Professional Office Cleaning Keep your workspace spotless and
+                </p>
+              </div>
+            </Link>
+            <Link href="./window">
+              <div className="div_cl">
+                <img src="./win.avif" />
+                <p className="office_text">Window Cleaning</p>
+                <p className="Pro">
+                  Professional Office Cleaning Keep your workspace spotless and
+                </p>
+              </div>
+            </Link>
+            <Link href="./office">
+              <div className="div_cl">
+                <img src="./off.avif" />
+                <p className="office_text">Office Cleaning</p>
+                <p className="Pro">
+                  Professional Office Cleaning Keep your workspace spotless and
+                </p>
+              </div>
+            </Link>
+            <Link href='./bedroom'>
+              <div className="div_cl">
+                <img src="./bed.avif" />
+                <p className="office_text">Bedroom Cleaning</p>
+                <p className="Pro">
+                  Professional Office Cleaning Keep your workspace spotless and
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
         <p className="text-center deliver">
@@ -94,7 +102,6 @@ export default function Services() {
             <p>CLient Base</p>
           </div>
         </div>
-        <PricingSection />
         <div className="relative h-[80vh] w-full overflow-hidden mb-20">
           {/* Background video */}
           <video
@@ -127,7 +134,7 @@ export default function Services() {
             </button>
           </div>
         </div>
-        <FaqSection/>
+        <FaqSection />
       </div>
 
       <Footer />

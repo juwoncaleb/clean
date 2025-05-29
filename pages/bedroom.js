@@ -10,30 +10,37 @@ export default function bedroom() {
       <Headdy />
       <center>
         <div className="window_div">
-          <p className="wind_head mb-2">Window Cleaning</p>
+          <p className="wind_head mb-2">Bedroom Cleaning</p>
           <p className="sub_text_wind">
-            Professional Window Cleaning Keep your workspace spotless and
-            productive with our thorough office cleaning services.
+            Your bedroom should be your sanctuary—a clean, calm space where you
+            can truly relax. But with busy schedules, keeping it spotless can be
+            a challenge. That’s where we come in. Our bedroom cleaning service
+            goes beyond just making the bed.
           </p>
-          <img className="window_img" src="./window.avif" />
+          <img className="window_img" src="./bd.jpg" />
           <p className="wind_sub_hesd">We give the best services</p>
           <p className="sub_text_wind mt-6">
-            We are committed to delivering exceptional cleaning services that
-            exceed your expectations. Our experienced and professional staff
-            utilizes state-of-the-art equipment and eco-friendly products to
-            ensure a spotless environment. We offer customizable cleaning plans
-            tailored to your specific needs, whether for a workspace or home.
-            Our attention to detail and dedication to customer satisfaction
-            guarantee that you receive the highest quality service every time.
-            Trust us to create a clean, healthy, and inviting space for you and
-            your team.
+            We dust and wipe all surfaces, including nightstands, dressers, and
+            shelves. We vacuum or mop the floors, clean under the bed, remove
+            cobwebs, and polish mirrors and glass. High-touch areas like door
+            handles, switches, and drawer pulls are also sanitized for your
+            peace of mind. We can also freshen up curtains and blinds, tidy up
+            cluttered spaces, and ensure the entire room smells clean and feels
+            comfortable. Whether it’s part of a full house clean, an
+            end-of-tenancy service, or a routine refresh, our trained cleaners
+            pay attention to every detail. So whether you’re a homeowner,
+            landlord, tenant, or managing a short-let property, we’ll help keep
+            your bedroom looking its best—clean, cozy, and guest-ready at all
+            times.
           </p>
           <p className="wind_sub_hesd">Service overview</p>
           <p className="sub_text_wind mt-6">
-            We offer a comprehensive range of cleaning services designed to meet
-            the diverse needs of our clients. Our services include regular
-            office cleaning, deep cleaning, and specialized cleaning for
-            carpets, windows, and upholstery.
+            Your bedroom is where you start and end each day—it should feel
+            clean, calm, and clutter-free. Our professional bedroom cleaning
+            service is designed to create a fresh, healthy environment where you
+            can relax and recharge. Whether it’s a one-time deep clean or part
+            of a regular cleaning schedule, we tailor our service to meet your
+            needs.
           </p>
           <div className=" grid grid-cols-2 mt-16">
             <div className="mt-10 ">
@@ -53,6 +60,7 @@ export default function bedroom() {
                 keyboards, doorknobs, and light switches to reduce the spread of
                 germs.
               </p>
+             
             </div>
             <img className="winnyy" src="./winy.avif" />
           </div>
@@ -123,7 +131,7 @@ export default function bedroom() {
           </div>
         </section>
       </center>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
