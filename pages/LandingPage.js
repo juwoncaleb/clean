@@ -3,6 +3,7 @@ import TestimonialsCarousel from "./component/carousel";
 import Footer from "./component/footer";
 import FixedHeader from "./component/header";
 import { getEntries } from "../lib/contentful";
+import Link from "next/link";
 
 const images = ["/h1.avif", "/h2.avif", "/h3.avif", "/h4.avif", "/h5.avif"];
 export async function getStaticProps() {
@@ -56,86 +57,14 @@ export default function LandingPage() {
             </div>
 
             {/* Right Form */}
-            {/* Right Form */}
-            <div className="w-full md:w-1/2 bg-white text-black rounded-xl shadow-lg p-8 max-w-md">
-              <h2 className="text-2xl font-bold mb-6">Request a service</h2>
-              <form className="space-y-5">
-                <div>
-                  <label className="block text-base font-medium mb-2">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    placeholder="Dennis Barrett"
-                    className="w-full p-3 border rounded-lg text-base"
-                  />
-                </div>
-                <div>
-                  <label className="block text-base font-medium mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    placeholder="example@gmail.com"
-                    className="w-full p-3 border rounded-lg text-base"
-                  />
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-1">
-                    <label className="block text-base font-medium mb-2">
-                      Phone
-                    </label>
-                    <input
-                      type="tel"
-                      placeholder="+1234567890"
-                      className="w-full p-3 border rounded-lg text-base"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <label className="block text-base font-medium mb-2">
-                      Select service
-                    </label>
-                    <select className="w-full p-3 border rounded-lg text-base">
-                      <option>Select service</option>
-                      <option>Home cleaning</option>
-                      <option>Commercial cleaning</option>
-                      <option>Disinfection</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-1">
-                    <label className="block text-base font-medium mb-2">
-                      Location
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="Los Angeles"
-                      className="w-full p-3 border rounded-lg text-base"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <label className="block text-base font-medium mb-2">
-                      Date
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="dd-mm-yy"
-                      className="w-full p-3 border rounded-lg text-base"
-                    />
-                  </div>
-                </div>
-                <button
-                  type="submit"
-                  className="w-full mt-5 bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 rounded-lg text-base"
-                >
-                  Submit
-                </button>
-              </form>
-            </div>
+         
           </div>
         </div>
         <div>
+
+
+
+          
           <div className="flex intro_text gap-20 justify-between">
             <p className="Ded_text">
              We are a dedicated cleaning company where cleanliness meets class.
@@ -199,9 +128,9 @@ export default function LandingPage() {
                 src="https://img.icons8.com/ios/100/office.png"
                 alt="office"
               />
-              <p className="fopo">Office Cleaning</p>
+              <p className="fopo">End of tenancy Cleaning</p>
             </div>
-            <p>End of tenancy Cleaning</p>
+            <p></p>
           </div>
           <hr className="mt-10 mb-10 linez" />
           <div className="flex justify-between">
@@ -213,9 +142,9 @@ export default function LandingPage() {
                 src="https://img.icons8.com/external-outline-design-circle/66/external-Window-Cleaning-home-repair-and-maintenance-outline-design-circle.png"
                 alt="external-Window-Cleaning-home-repair-and-maintenance-outline-design-circle"
               />
-              <p className="fopo">Window Cleaning</p>
+              <p className="fopo">After builders cleaning</p>
             </div>
-            <p>After builders cleaning</p>
+            <p></p>
           </div>
           <hr className="mt-10 mb-10 linez" />
           <div className="flex justify-between">
@@ -229,7 +158,7 @@ export default function LandingPage() {
               />
               <p className="fopo">Carpet Cleaning</p>
             </div>
-            <p>Professional carpet cleaning</p>
+            <p></p>
           </div>
           <hr className="mt-10 mb-10 linez" />
           <div className="flex justify-between">
@@ -241,9 +170,8 @@ export default function LandingPage() {
                 src="https://img.icons8.com/ios/100/bedroom.png"
                 alt="bedroom"
               />
-              <p className="fopo">Bedroom Cleaning</p>
+              <p className="fopo">Deep Cleaning</p>
             </div>
-            <p>One-off deep cleaning, Appliance cleaning, e.g., Oven, Fridge, etc. Routine cleaning</p>
           </div>
           <hr className="mt-10 mb-10 linez" />
         </div>
@@ -271,9 +199,12 @@ export default function LandingPage() {
             {" "}
             Trusted for reliable, & hassle-free cleaning.
           </h1>
-          <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-300 transition">
+          <Link href='https://dfb70h20znm.typeform.com/to/FJRHJGQw'>
+            <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-300 transition">
             Get Started
           </button>
+          </Link>
+        
         </div>
       </div>
       <Footer />

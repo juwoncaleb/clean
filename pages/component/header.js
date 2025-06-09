@@ -27,7 +27,10 @@ const FixedHeader = () => {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-semibold">CleaningCo</div>
+        <div className="text-2xl font-semibold">
+          {" "}
+          <img className="logo_img" src="./lg.jpeg" />
+        </div>
 
         {/* Navigation */}
         <nav className="hidden md:flex space-x-8">
@@ -40,11 +43,6 @@ const FixedHeader = () => {
           <a href="about" className="text-base hover:text-yellow-500">
             About
           </a>
-          <Link href="./price">
-            <p href="#contact" className="text-base hover:text-yellow-500">
-              Pricng
-            </p>
-          </Link>
 
           <a href="contact" className="text-base hover:text-yellow-500">
             Contact
@@ -52,11 +50,13 @@ const FixedHeader = () => {
         </nav>
 
         {/* Get Quote Button */}
-        <div className="hidden md:block">
-          <button className="bg-[#FED00E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition-colors">
-            Get Quote
-          </button>
-        </div>
+        <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
+          <div className="hidden md:block">
+            <button className="bg-[#FED00E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition-colors">
+              Get Quote
+            </button>
+          </div>
+        </Link>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">

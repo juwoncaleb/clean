@@ -18,7 +18,7 @@ export default function Home({ services }) {
             >
               <div>
                 <h2 className="text-5xl font-extrabold text-blue-600">
-                  ${price}
+                   £{price}
                   <span className="text-lg font-normal text-gray-500 ml-2">
                     / visit
                   </span>

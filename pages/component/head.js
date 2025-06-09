@@ -45,11 +45,7 @@ const Headdy = () => {
             About
           </p>
          </Link>
-          <Link href='./price'>
-          <p href="price" className="text-base hover:text-yellow-500">
-            Price
-          </p>
-         </Link>
+       
          
           <p href="contact" className="text-base hover:text-yellow-500">
             Contact
@@ -57,11 +53,14 @@ const Headdy = () => {
         </nav>
 
         {/* Get Quote Button */}
-        <div className="hidden md:block">
+        <Link href='https://dfb70h20znm.typeform.com/to/FJRHJGQw'>
+          <div className="hidden md:block">
           <button className="bg-[#FED00E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition-colors">
             Get Quote
           </button>
         </div>
+        </Link>
+      
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">

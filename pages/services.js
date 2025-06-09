@@ -68,7 +68,7 @@ export default function Services() {
                 </p>
               </div>
             </Link>
-            <Link href='./bedroom'>
+            <Link href="./bedroom">
               <div className="div_cl">
                 <img src="./bed.avif" />
                 <p className="office_text">Bedroom Cleaning</p>
@@ -124,14 +124,11 @@ export default function Services() {
               {" "}
               Trusted for reliable, & hassle-free cleaning.
             </h1>
-            <button
-              data-cal-namespace="schedule-tour"
-              data-cal-link="omojuwon/schedule-tour"
-              data-cal-config='{"layout":"month_view"}'
-              className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-300 transition"
-            >
-              Book an appointment{" "}
-            </button>
+            <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
+              <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-300 transition">
+                Book an appointment{" "}
+              </button>
+            </Link>
           </div>
         </div>
         <FaqSection />

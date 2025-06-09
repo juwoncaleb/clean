@@ -217,6 +217,10 @@
   margin-right: 5%;
 }
 
+.logo_img {
+  height: 50px;
+}
+
 .wind_head {
   font-size: 35px;
   font-weight: 500;
