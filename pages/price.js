@@ -1,4 +1,3 @@
-import { getEntries } from "../lib/contentful";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import Footer from "./component/footer";
 import Headdy from "./component/head";

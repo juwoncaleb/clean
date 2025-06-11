@@ -2,22 +2,10 @@ import React, { useEffect, useState } from "react";
 import TestimonialsCarousel from "./component/carousel";
 import Footer from "./component/footer";
 import FixedHeader from "./component/header";
-import { getEntries } from "../lib/contentful";
 import Link from "next/link";
 
 const images = ["/h1.avif", "/h2.avif", "/h3.avif", "/h4.avif", "/h5.avif"];
-export async function getStaticProps() {
-  const entries = await client.getEntries({
-    content_type: "package", // Ensure this matches your Contentful content type ID
-  });
 
-  return {
-    props: {
-      content: entries.items,
-    },
-    revalidate: 60, // ISR
-  };
-}
 
 export default function LandingPage() {
   const [index, setIndex] = useState(0);
@@ -52,7 +40,7 @@ export default function LandingPage() {
               </h1>
               <p className="text-lg max-w-md">
                 Experience top-notch cleaning services that cater to residential
-                and commercial needs. We don't cut corners, we clean them!
+                and commercial needs. We do not cut corners, we clean them!
               </p>
             </div>
 
