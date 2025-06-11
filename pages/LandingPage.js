@@ -6,7 +6,6 @@ import Link from "next/link";
 
 const images = ["/h1.avif", "/h2.avif", "/h3.avif", "/h4.avif", "/h5.avif"];
 
-
 export default function LandingPage() {
   const [index, setIndex] = useState(0);
 
@@ -45,31 +44,31 @@ export default function LandingPage() {
             </div>
 
             {/* Right Form */}
-         
           </div>
         </div>
         <div>
-
-
-
-          
           <div className="flex intro_text gap-20 justify-between">
             <p className="Ded_text">
-             We are a dedicated cleaning company where cleanliness meets class.
+              We are a dedicated cleaning company where cleanliness meets class.
             </p>
             <div>
               <p>
-             Klinvault Ltd is committed to providing high-quality, reliable, and affordable cleaning services. With a strong commitment to excellence and customer satisfaction, our team is ready to ensure your facilities are maintained in pristine condition.
-              </p>
-              <button className="flex gap-4 btn_more">
-                Get Started{" "}
-                <img
-                  width="30"
-                  height="30"
-                  src="https://img.icons8.com/ios-glyphs/30/circled-right-2.png"
-                  alt="circled-right-2"
-                />
-              </button>
+                Klinvault Ltd is committed to providing high-quality, reliable,
+                and affordable cleaning services. With a strong commitment to
+                excellence and customer satisfaction, our team is ready to
+                ensure your facilities are maintained in pristine condition.
+              </p>{" "}
+              <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
+                <button className="flex gap-4 btn_more">
+                  Get Started{" "}
+                  <img
+                    width="30"
+                    height="30"
+                    src="https://img.icons8.com/ios-glyphs/30/circled-right-2.png"
+                    alt="circled-right-2"
+                  />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -187,12 +186,11 @@ export default function LandingPage() {
             {" "}
             Trusted for reliable, & hassle-free cleaning.
           </h1>
-          <Link href='https://dfb70h20znm.typeform.com/to/FJRHJGQw'>
+          <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
             <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-300 transition">
-            Get Started
-          </button>
+              Get Started
+            </button>
           </Link>
-        
         </div>
       </div>
       <Footer />
