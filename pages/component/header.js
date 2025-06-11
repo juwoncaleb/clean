@@ -43,7 +43,6 @@ const FixedHeader = () => {
           <a href="about" className="text-base hover:text-yellow-500">
             About
           </a>
-
           <a href="contact" className="text-base hover:text-yellow-500">
             Contact
           </a>
