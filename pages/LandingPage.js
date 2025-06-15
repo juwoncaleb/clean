@@ -46,57 +46,64 @@ export default function LandingPage() {
             {/* Right Form */}
           </div>
         </div>
-        <div>
-          <div className="flex intro_text gap-20 justify-between">
-            <p className="Ded_text">
+        <div className="px-4 sm:px-6 md:px-10 py-10">
+          <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-20">
+            {/* Left Text */}
+            <p className="Ded_text text-lg font-semibold text-black leading-relaxed md:w-1/3">
               We are a dedicated cleaning company where cleanliness meets class.
             </p>
-            <div>
-              <p>
+
+            {/* Right Text and Button */}
+            <div className="md:w-1/2 space-y-6">
+              <p className="text-base text-black leading-relaxed">
                 Klinvault Ltd is committed to providing high-quality, reliable,
                 and affordable cleaning services. With a strong commitment to
                 excellence and customer satisfaction, our team is ready to
                 ensure your facilities are maintained in pristine condition.
-              </p>{" "}
+              </p>
+
               <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
-                <button className="flex gap-4 btn_more">
-                  Get Started{" "}
+                <button className="flex items-center mt-8 gap-3 bg-yellow-400 text-black font-semibold py-2 px-5 rounded-md hover:bg-yellow-300 transition">
+                  Get Started
                   <img
-                    width="30"
-                    height="30"
+                    width="24"
+                    height="24"
                     src="https://img.icons8.com/ios-glyphs/30/circled-right-2.png"
-                    alt="circled-right-2"
+                    alt="arrow"
                   />
                 </button>
               </Link>
             </div>
           </div>
         </div>
-        <div className="div_land grid gap-4 grid-cols-4">
-          <img className="quad_img" src="./qi.webp" />
+        <div className="div_land grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-4 px-4 sm:px-6">
+          <img
+            className="quad_img w-full h-auto object-cover rounded-md"
+            src="./qi.webp"
+            alt="Quad Image"
+          />
 
-          <div className="div_card flex flex-col justify-between">
-            <p className="head_card">
-              300<span className="head_icon">+</span>
+          <div className="div_card flex flex-col justify-between bg-[#f9f9f9] p-4 rounded-md">
+            <p className="head_card text-2xl font-bold">
+              300<span className="head_icon text-lg">+</span>
             </p>
-            <p className="px-5 pb-5 ml-4">
+            <p className="text-sm text-gray-600">
               Projects completed. Over 300+ successful projects delivered with
               precision and care.
             </p>
           </div>
 
-          <div className="div_card flex flex-col justify-between">
-            <p className="mt-8 ml-4">
-              {" "}
+          <div className="div_card flex flex-col justify-between bg-[#f9f9f9] p-4 rounded-md">
+            <p className="text-sm text-gray-600 mt-4">
               Projects completed. Over 300+ successful projects delivered with
               precision and care.
             </p>
-            <p className="px-5 head_card pb-5">300</p>
+            <p className="head_card text-2xl font-bold">300</p>
           </div>
 
-          <div className="div_card flex flex-col justify-between">
-            <p className="head_card">300+</p>
-            <p className="px-5 pb-5 ml-4">
+          <div className="div_card flex flex-col justify-between bg-[#f9f9f9] p-4 rounded-md">
+            <p className="head_card text-2xl font-bold">300+</p>
+            <p className="text-sm text-gray-600">
               Projects completed. Over 300+ successful projects delivered with
               precision and care.
             </p>

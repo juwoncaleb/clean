@@ -4,35 +4,33 @@ export default function Footer() {
   return (
     <footer className="bg-[#111] text-white pt-16">
       {/* Top Call to Action */}
-      <div className="bg-yellow-400 subt rounded-lg px-6 py-10 md:flex items-center justify-between max-w-7xl mx-auto mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 md:mb-0">
-          Clean your space Today.
+      <div className="bg-yellow-400 rounded-lg px-6 py-10 flex flex-col md:flex-row items-start md:items-center justify-between max-w-7xl mx-auto mb-16 space-y-6 md:space-y-0">
+        <h2 className="text-2xl text-black sm:text-3xl md:text-4xl font-bold max-w-md">
+          Clean your space today.
         </h2>
-        <div className="flex flex-col md:flex-row gap-4">
-          <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
-            <button className="bg-[#4F46E5] text-white font-semibold text-lg px-6 py-3 rounded-md flex items-center gap-2">
-              Get Started<span>→</span>
+        <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+          <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw" passHref>
+            <button className="bg-[#4F46E5] text-white font-semibold text-lg px-6 py-3 rounded-md w-full sm:w-auto">
+              Get Started <span>→</span>
             </button>
           </Link>
-
           <a
-            href="tel:+13944955993"
-            className="bg-[#4F46E5] text-white font-semibold text-lg px-6 py-3 rounded-md text-center"
+            href="tel:+447780056787"
+            className="bg-[#4F46E5] text-white font-semibold text-lg px-6 py-3 rounded-md text-center w-full sm:w-auto"
           >
-            Call us: +1-394-495-5993
+            Call us: +447780056787
           </a>
         </div>
       </div>
 
       {/* Footer Main */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 px-6 pb-12 text-sm">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 px-6 pb-12 text-sm">
         {/* Logo and Description */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <div className="bg-[#4F46E5] p-2 rounded-md"></div>
+            <div className="bg-[#4F46E5] p-2 rounded-md" />
             <div className="text-2xl font-semibold">
-              {" "}
-              <img className="logo_img" src="./lg.jpeg" />
+              <img className="logo_img w-20 h-auto" src="./lg.jpeg" alt="Logo" />
             </div>
           </div>
           <p className="text-gray-300">
@@ -41,59 +39,33 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Links 1 */}
-        <div>
-          <ul className="space-y-2">
-            <li className="text-yellow-400 font-semibold">Home</li>
-            <li>Home 2</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Service Static</li>
-            <li>Pricing</li>
-            <li>Blog</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-
-        {/* Links 2 */}
-        <div>
-          <ul className="space-y-2">
-            <li>Style Guide</li>
-            <li>Instructions</li>
-            <li>Changelog</li>
-            <li>Licenses</li>
-            <li>Link in Bio</li>
-            <li>Coming Soon</li>
-            <li>Password Protected</li>
-            <li>Error 404</li>
-          </ul>
-        </div>
+        {/* Empty columns for links if needed later */}
+        <div></div>
+        <div></div>
 
         {/* Contact Info */}
         <div className="space-y-4">
           <div className="flex items-center gap-2">
             <span>📧</span>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a href="mailto:Klinvault@gmail.com">Klinvault@gmail.com</a>
           </div>
           <div className="flex items-center gap-2">
             <span>📞</span>
-            <a href="tel:+12345678901">+1 (234) 567-8901</a>
+            <a href="tel:+447780056787">+447780056787</a>
           </div>
           <div className="flex items-start gap-2">
             <span>📍</span>
             <address>
-              544 Honey Creek Rd. <br />
-              West Des Moines, IA 50265
+              44 Perry Villa Drive,<br />Birmingham B42 2LQ.
             </address>
           </div>
         </div>
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-800 text-center text-sm text-gray-400 py-4">
+      <div className="border-t border-gray-800 text-center text-sm text-gray-400 py-4 px-4">
         Designed by{" "}
-        <span className="text-yellow-400 font-semibold">Webestica</span>,
-        Powered by{" "}
+        <span className="text-yellow-400 font-semibold">Juwoncaleb</span>, Powered by{" "}
         <span className="text-yellow-400 font-semibold">Webflow</span>
       </div>
     </footer>

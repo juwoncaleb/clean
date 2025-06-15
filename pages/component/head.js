@@ -30,41 +30,41 @@ const Headdy = () => {
 
         {/* Navigation */}
         <nav className="hidden md:flex space-x-8">
-       <Link href='./'>
-          <p href="#home" className="text-base hover:text-yellow-500">
-            Home
-          </p></Link>
+          <Link href="./">
+            <p href="#home" className="text-base hover:text-yellow-500">
+              Home
+            </p>
+          </Link>
 
-         <Link href='./services'>
-          <p href="services" className="text-base hover:text-yellow-500">
-            Services
-          </p>
-         </Link>
-         <Link href='./about'>
-          <p href="about" className="text-base hover:text-yellow-500">
-            About
-          </p>
-         </Link>
-       
-         
+          <Link href="./services">
+            <p href="services" className="text-base hover:text-yellow-500">
+              Services
+            </p>
+          </Link>
+          <Link href="./about">
+            <p href="about" className="text-base hover:text-yellow-500">
+              About
+            </p>
+          </Link>
+
           <p href="contact" className="text-base hover:text-yellow-500">
             Contact
           </p>
         </nav>
 
         {/* Get Quote Button */}
-        <Link href='https://dfb70h20znm.typeform.com/to/FJRHJGQw'>
+        <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
           <div className="hidden md:block">
-          <button className="bg-[#FED00E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition-colors">
-            Get Quote
-          </button>
-        </div>
+            <button className="bg-[#FED00E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition-colors">
+              Get Quote
+            </button>
+          </div>
         </Link>
-      
 
         {/* Mobile Menu Button */}
+        {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button className="text-black focus:outline-none">
+          <button className="text-white focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -73,11 +73,11 @@ const Headdy = () => {
               className="w-6 h-6"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h16M4 18h16"
-              ></path>
+              />
             </svg>
           </button>
         </div>
