@@ -11,6 +11,7 @@
 .Ded_text {
   font-size: 40px;
   font-weight: 600;
+  font-family: "Red Hat Text", sans-serif;
 }
 
 .intro_text {
@@ -136,6 +137,34 @@
   margin-bottom: 30px;
 }
 
+.client {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.ani {
+  font-family: "Montserrat", sans-serif;
+}
+
+.fopo {
+  font-family: "Montserrat", sans-serif;
+}
+
+.head_card {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.cleanhead {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+.lim {
+  font-family: "Montserrat", sans-serif;
+}
+
+.stat {
+  font-family: "Montserrat", sans-serif;
+}
+
 .blacText {
   background-color: white;
 }
@@ -154,14 +183,17 @@
   height: 450px;
 }
 
-.service_text {
+.service_div {
   background-color: #443dfc;
+}
+
+.service_text {
   color: white;
   padding: 70px;
 }
 
 .office_text {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -169,7 +201,7 @@
 }
 
 .div_cl {
-  background-color: #E5F1FF;
+  background-color: #e5f1ff;
   border-radius: 10px;
 }
 
@@ -180,15 +212,13 @@
 }
 
 .deliver {
-  font-size: 50px;
-  margin-top: 80px;
+  font-size: 40px;
+  margin-top: 150px;
   font-weight: 700;
 }
 
 .del_det {
   margin-top: 50px;
-  margin-right: 70px;
-  margin-left: 70px;
 }
 
 .about_div {
@@ -234,6 +264,11 @@
   height: 50px;
 }
 
+.sabi {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .wind_head {
   font-size: 35px;
   font-weight: 500;
@@ -241,7 +276,7 @@
 }
 
 .window_img {
-  max-width: 900px;
+  width: 900px;
   margin-top: 40px;
   border-radius: 10px;
 }
@@ -269,4 +304,73 @@
   height: 460px;
   width: 300px;
   margin-left: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .window_img {
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .serc_image {
+    margin-top: 20px;
+    height: 350px;
+  }
+  .tey {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .office_text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .Pro {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .deliver {
+    font-size: 27px;
+    margin-top: 150px;
+    font-weight: 700;
+  }
+}
+.typesofclean {
+  margin-top: 200px !important;
+}
+
+.service_div {
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 770px) {
+  .service_div {
+    grid-template-columns: 1fr;
+  }
+  .typp {
+    grid-template-columns: 2fr;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .tey {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  .serv_div {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .serc_image {
+    margin-top: 20px;
+    height: 250px;
+  }
 }/*# sourceMappingURL=global.css.map */

@@ -33,7 +33,7 @@ export default function LandingPage() {
 
           <div className="relative z-10 bg-black/60 min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-12 text-white">
             {/* Left Content */}
-            <div className="w-full md:w-1/2 mb-10 md:mb-0">
+            <div className="w-full md:w-1/2 mb-10 md:mb-0 cleanhead">
               <h1 className="text-5xl font-bold mb-6">
                 You Deserve a Home That Feels Like a Sanctuary{" "}
               </h1>
@@ -55,7 +55,7 @@ export default function LandingPage() {
 
             {/* Right Text and Button */}
             <div className="md:w-1/2 space-y-6">
-              <p className="text-base text-black leading-relaxed">
+              <p className="text-base text-black lim leading-relaxed">
                 Klinvault Ltd is committed to providing high-quality, reliable,
                 and affordable cleaning services. With a strong commitment to
                 excellence and customer satisfaction, our team is ready to
@@ -87,14 +87,14 @@ export default function LandingPage() {
             <p className="head_card text-2xl font-bold">
               300<span className="head_icon text-lg">+</span>
             </p>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm stat text-gray-600">
               Projects completed. Over 300+ successful projects delivered with
               precision and care.
             </p>
           </div>
 
           <div className="div_card flex flex-col justify-between bg-[#f9f9f9] p-4 rounded-md">
-            <p className="text-sm text-gray-600 mt-4">
+            <p className="text-sm stat text-gray-600 mt-4">
               Projects completed. Over 300+ successful projects delivered with
               precision and care.
             </p>
@@ -103,7 +103,7 @@ export default function LandingPage() {
 
           <div className="div_card flex flex-col justify-between bg-[#f9f9f9] p-4 rounded-md">
             <p className="head_card text-2xl font-bold">300+</p>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm stat text-gray-600">
               Projects completed. Over 300+ successful projects delivered with
               precision and care.
             </p>
@@ -111,7 +111,6 @@ export default function LandingPage() {
         </div>
       </div>
       <div className="service">
-        <p className="serv_text">OUR SERVICES</p>
         <div className="mt-14 serv_div ">
           <div className="flex justify-between">
             <div className="flex">
@@ -189,7 +188,7 @@ export default function LandingPage() {
 
         {/* Centered content */}
         <div className="relative z-20 flex flex-col items-center justify-center h-full text-white text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-4xl ani md:text-5xl font-bold mb-4">
             {" "}
             Trusted for reliable, & hassle-free cleaning.
           </h1>

@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import Image from 'next/image';
+import React, { useState } from "react";
+import Image from "next/image";
 
 const testimonials = [
   {
@@ -31,25 +31,27 @@ export default function TestimonialsPage() {
   const { name, location, text, image } = testimonials[index];
 
   return (
-    <div className="h-[70vh] mt-20 bg-blue-100 flex items-center justify-center p-6">
-      <div className="max-w-5xl w-full bg-blue-100 rounded-lg p-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div className="w-full">
-          <Image
-            src={image}
-            alt={name}
-            width={400}
-            height={400}
-            className="rounded-lg object-cover w-full h-auto"
-          />
+    <div className="mt-20 bg-blue-100 flex items-center justify-center p-6">
+      <div className="max-w-5xl w-full bg-blue-100 rounded-lg p-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="w-full flex justify-center">
+          <div className="w-full max-w-xs">
+            <Image
+              src={image}
+              alt={name}
+              width={400}
+              height={400}
+              className="rounded-lg object-cover w-full h-auto"
+            />
+          </div>
         </div>
-        <div>
-          <div className="flex mb-4 text-yellow-400 text-xl">
+        <div className="text-center md:text-left">
+          <div className="flex justify-center md:justify-start mb-4 text-yellow-400 text-xl">
             {'★★★★★'}
           </div>
-          <p className="text-2xl font-semibold text-gray-900 mb-4">{text}</p>
+          <p className="text-xl font-semibold text-gray-900 mb-4">{text}</p>
           <p className="font-bold text-gray-800">{name}</p>
           <p className="text-gray-600">{location}</p>
-          <div className="mt-6 flex gap-4">
+          <div className="mt-6 flex justify-center md:justify-start gap-4">
             <button
               onClick={handlePrev}
               className="bg-blue-600 text-white p-2 rounded hover:bg-blue-700"

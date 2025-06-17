@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#111] text-white pt-16">
+    <footer className="bg-[#111]  px-10 text-white pt-16">
       {/* Top Call to Action */}
       <div className="bg-yellow-400 rounded-lg px-6 py-10 flex flex-col md:flex-row items-start md:items-center justify-between max-w-7xl mx-auto mb-16 space-y-6 md:space-y-0">
         <h2 className="text-2xl text-black sm:text-3xl md:text-4xl font-bold max-w-md">

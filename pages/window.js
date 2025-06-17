@@ -27,7 +27,7 @@ export default function window() {
             Whether it’s a one-time clean or part of regular maintenance, we
             make sure your windows shine.
           </p>
-          <div className="grid grid-cols-2 mt-16">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 mt-16 ml-4">
             <div className="mt-10">
               <p className="text-left mt-6">
                 <span className="bold_div">Interior & Exterior Cleaning</span>:

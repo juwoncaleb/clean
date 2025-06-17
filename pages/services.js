@@ -26,7 +26,7 @@ export default function Services() {
     <div>
       <Headdy />
       <div className="serv_div">
-        <div className="flex service_div justify-around">
+        <div className=" service_div grid grid-cols-2">
           <div className="service_text">
             <p className="tey">Expert Cleaning</p>
             <div className="pp">
@@ -37,44 +37,33 @@ export default function Services() {
               </p>
             </div>
           </div>
+
           <img className="serc_image" src="./clp.avif" />
         </div>
-        <div>
-          <div className="grid grid-cols-4 gap-8">
+        <div className="typesofclean">
+          <div className="grid typp grid-cols-4  gap-8">
             <Link href="./carpert">
               <div className="div_cl">
                 <img src="./car.avif" />
                 <p className="office_text">Carpet Cleaning</p>
-                <p className="Pro">
-                  Professional Office Cleaning Keep your workspace spotless and
-                </p>
               </div>
             </Link>
             <Link href="./window">
               <div className="div_cl">
                 <img src="./win.avif" />
                 <p className="office_text">Window Cleaning</p>
-                <p className="Pro">
-                  Professional Office Cleaning Keep your workspace spotless and
-                </p>
               </div>
             </Link>
             <Link href="./office">
               <div className="div_cl">
                 <img src="./off.avif" />
                 <p className="office_text">Office Cleaning</p>
-                <p className="Pro">
-                  Professional Office Cleaning Keep your workspace spotless and
-                </p>
               </div>
             </Link>
             <Link href="./bedroom">
               <div className="div_cl">
                 <img src="./bed.avif" />
                 <p className="office_text">Bedroom Cleaning</p>
-                <p className="Pro">
-                  Professional Office Cleaning Keep your workspace spotless and
-                </p>
               </div>
             </Link>
           </div>
@@ -82,26 +71,27 @@ export default function Services() {
         <p className="text-center deliver">
           Delivering superior cleaning services with unwavering dedication
         </p>
-        <div className="flex justify-center gap-20">
-          <div className="del_det">
+        <div className="flex flex-col items-center gap-10 mb-20 md:flex-row md:justify-center md:gap-20">
+          <div className="del_det text-center">
             <p className="head_card">
               300<span className="head_icon">+</span>
-            </p>{" "}
+            </p>
             <p>Project completed</p>
           </div>
-          <div className="del_det">
+          <div className="del_det text-center">
             <p className="head_card">
               98<span className="head_icon">%</span>
-            </p>{" "}
+            </p>
             <p>Client retention</p>
           </div>
-          <div className="del_det">
+          <div className="del_det text-center">
             <p className="head_card">
               50<span className="head_icon">+</span>
-            </p>{" "}
-            <p>CLient Base</p>
+            </p>
+            <p>Client Base</p>
           </div>
         </div>
+
         <div className="relative h-[80vh] w-full overflow-hidden mb-20">
           {/* Background video */}
           <video

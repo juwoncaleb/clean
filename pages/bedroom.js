@@ -6,7 +6,7 @@ import Footer from "./component/footer";
 
 export default function bedroom() {
   return (
-    <div>
+    <div className="sabi">
       <Headdy />
       <center>
         <div className="window_div">
@@ -42,8 +42,9 @@ export default function bedroom() {
             of a regular cleaning schedule, we tailor our service to meet your
             needs.
           </p>
-          <div className=" grid grid-cols-2 mt-16">
-            <div className="mt-10 ">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 mt-16">
+            <img className="winnyy order-1 md:order-2" src="./winy.avif" />
+            <div className="mt-10 order-2 md:order-1">
               <p className="text-left mt-6">
                 <span className="bold_div">General cleaning</span>: Dusting,
                 vacuuming, and mopping of all common areas, workstations, and
@@ -60,9 +61,7 @@ export default function bedroom() {
                 keyboards, doorknobs, and light switches to reduce the spread of
                 germs.
               </p>
-             
             </div>
-            <img className="winnyy" src="./winy.avif" />
           </div>
         </div>
         <TestimonialsPage />

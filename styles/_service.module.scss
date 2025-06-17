@@ -1,0 +1,61 @@
+@media only screen and (max-width: 1024px) {
+  .serc_image {
+    margin-top: 20px;
+    height: 350px;
+  }
+  .tey {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .office_text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+  }
+  .Pro {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .deliver {
+    font-size: 27px;
+    margin-top: 150px;
+    font-weight: 700;
+  }
+}
+.typesofclean {
+  margin-top: 200px !important;
+}
+.service_div {
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 770px) {
+    .service_div {
+    grid-template-columns: 1fr;
+  }
+  .typp{
+        grid-template-columns: 2fr;
+
+  }
+}
+@media only screen and (max-width: 450px) {
+.tey {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.serv_div {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+.serc_image {
+    margin-top: 20px;
+    height: 250px;
+  }
+}

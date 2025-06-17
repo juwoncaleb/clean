@@ -32,7 +32,7 @@ const testimonials = [
 export default function TestimonialsCarousel() {
   return (
     <div className="relative overflow-hidden bg-blue-50 caro ">
-      <h2 className="text-3xl font-bold text-center mb-20">Hear from our happy clients</h2>
+      <h2 className="text-3xl font-bold text-center client mb-20">Hear from our happy clients</h2>
 
       <div className="w-full">
         <div className="flex animate-scroll space-x-6">

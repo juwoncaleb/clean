@@ -20,7 +20,7 @@ export default function Carpet() {
           <p className="sub_text_wind mt-6">
             We provide thorough carpet cleaning using hot water extraction (steam cleaning) and targeted stain removal, ensuring deep cleanliness and odor neutralization. Our eco-friendly products are safe for families and pets, and we pay special attention to high-traffic areas to extend your carpet’s lifespan.
           </p>
-          <div className="grid grid-cols-2 mt-16">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 mt-16 ml-4">
             <div className="mt-10">
               <p className="text-left mt-6">
                 <span className="bold_div">Deep Carpet Cleaning</span>: Penetrates carpet fibers to remove embedded dirt and dust.
