@@ -32,10 +32,10 @@ const FixedHeader = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8 items-center">
-          <a href="#home" className="hover:text-yellow-500">Home</a>
-          <a href="#services" className="hover:text-yellow-500">Services</a>
-          <a href="#about" className="hover:text-yellow-500">About</a>
-          <a href="#contact" className="hover:text-yellow-500">Contact</a>
+          <a href="home" className="hover:text-yellow-500">Home</a>
+          <a href="services" className="hover:text-yellow-500">Services</a>
+          <a href="about" className="hover:text-yellow-500">About</a>
+          <a href="contact" className="hover:text-yellow-500">Contact</a>
           <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw" target="_blank">
             <button className="bg-[#FED00E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition">
               Get Quote
@@ -71,10 +71,10 @@ const FixedHeader = () => {
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div className="md:hidden bg-[#1E1E1E] text-white px-6 py-4 space-y-4">
-          <a href="#home" className="block hover:text-yellow-500">Home</a>
-          <a href="#services" className="block hover:text-yellow-500">Services</a>
-          <a href="#about" className="block hover:text-yellow-500">About</a>
-          <a href="#contact" className="block hover:text-yellow-500">Contact</a>
+          <a href="home" className="block hover:text-yellow-500">Home</a>
+          <a href="services" className="block hover:text-yellow-500">Services</a>
+          <a href="about" className="block hover:text-yellow-500">About</a>
+          <a href="contact" className="block hover:text-yellow-500">Contact</a>
           <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw" target="_blank">
             <button className="w-full bg-[#FED00E] text-black font-semibold py-2 px-4 rounded-full hover:bg-yellow-400 transition">
               Get Quote
