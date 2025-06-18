@@ -34,8 +34,8 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-gray-300">
-            We handle repairs & maintenance for all appliances with expertise &
-            efficiency to ensure your appliances.
+           Experience top-notch cleaning services that cater to residential
+                and commercial needs. We do not cut corners, we clean them!
           </p>
         </div>
 

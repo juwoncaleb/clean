@@ -32,7 +32,7 @@ const FixedHeader = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8 items-center">
-          <a href="home" className="hover:text-yellow-500">Home</a>
+          <a href="./" className="hover:text-yellow-500">Home</a>
           <a href="services" className="hover:text-yellow-500">Services</a>
           <a href="about" className="hover:text-yellow-500">About</a>
           <a href="contact" className="hover:text-yellow-500">Contact</a>
@@ -71,7 +71,7 @@ const FixedHeader = () => {
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
         <div className="md:hidden bg-[#1E1E1E] text-white px-6 py-4 space-y-4">
-          <a href="home" className="block hover:text-yellow-500">Home</a>
+          <a href="/" className="block hover:text-yellow-500">Home</a>
           <a href="services" className="block hover:text-yellow-500">Services</a>
           <a href="about" className="block hover:text-yellow-500">About</a>
           <a href="contact" className="block hover:text-yellow-500">Contact</a>
