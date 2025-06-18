@@ -98,7 +98,7 @@ export default function Services() {
           <p className="depo"> Professional carpet cleaning services</p>
           involve deep cleaning of carpets using specialized equipment and
           techniques to remove dirt, stains, allergens, and bacteria that
-          regular vacuuming can’t reach. These services are typically provided
+          regular vacuuming can not reach. These services are typically provided
           by trained technicians and are suitable for both residential and
           commercial spaces.
           <p className="depo"> What are the benefits?</p>
