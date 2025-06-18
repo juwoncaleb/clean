@@ -62,7 +62,7 @@ export default function LandingPage() {
                 ensure your facilities are maintained in pristine condition.
               </p>
 
-              <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
+              <Link href="https://form.typeform.com/to/JyULUUAU">
                 <button className="flex items-center mt-8 gap-3 bg-yellow-400 text-black font-semibold py-2 px-5 rounded-md hover:bg-yellow-300 transition">
                   Get Started
                   <img
@@ -192,7 +192,7 @@ export default function LandingPage() {
             {" "}
             Trusted for reliable, & hassle-free cleaning.
           </h1>
-          <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw">
+          <Link href="https://form.typeform.com/to/JyULUUAU">
             <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-300 transition">
               Get Started
             </button>

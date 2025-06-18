@@ -27,7 +27,7 @@ const Headdy = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-semibold">
-          <img className="h-10 w-auto" src="./lg.jpeg" alt="logo" />
+          <img className="h-10 w-auto" src="./lb.jpg" alt="logo" />
         </div>
 
         {/* Desktop Nav */}
@@ -42,9 +42,8 @@ const Headdy = () => {
             <p className="text-base hover:text-yellow-500 cursor-pointer">About</p>
           </Link>
           <Link href="/contact">
-            <p className="text-base hover:text-yellow-500 cursor-pointer">Contact</p>
           </Link>
-          <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw" target="_blank">
+          <Link href="https://form.typeform.com/to/JyULUUAU" target="_blank">
             <button className="bg-[#FED00E] text-black font-semibold py-2 px-6 rounded-full hover:bg-yellow-400 transition">
               Get Quote
             </button>
@@ -85,9 +84,8 @@ const Headdy = () => {
             <p className="block hover:text-yellow-500">About</p>
           </Link>
           <Link href="/contact">
-            <p className="block hover:text-yellow-500">Contact</p>
           </Link>
-          <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw" target="_blank">
+          <Link href="https://form.typeform.com/to/JyULUUAU" target="_blank">
             <button className="w-full bg-[#FED00E] text-black font-semibold py-2 px-4 rounded-full hover:bg-yellow-400 transition">
               Get Quote
             </button>

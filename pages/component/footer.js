@@ -9,7 +9,7 @@ export default function Footer() {
           Clean your space today.
         </h2>
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-          <Link href="https://dfb70h20znm.typeform.com/to/FJRHJGQw" passHref>
+          <Link href="https://form.typeform.com/to/JyULUUAU" passHref>
             <button className="bg-[#4F46E5] text-white font-semibold text-lg px-6 py-3 rounded-md w-full sm:w-auto">
               Get Started <span>→</span>
             </button>
@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="flex items-center gap-2 mb-4">
             <div className="bg-[#4F46E5] p-2 rounded-md" />
             <div className="text-2xl font-semibold">
-              <img className="logo_img w-20 h-auto" src="./lg.jpeg" alt="Logo" />
+              <img className="logo_img w-20 h-auto" src="./lb.jpg" alt="Logo" />
             </div>
           </div>
           <p className="text-gray-300">
