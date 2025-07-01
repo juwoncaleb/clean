@@ -8,61 +8,71 @@ export default function About() {
   return (
     <div className="overflow-x-hidden">
       <Headdy />
-<div className="blu px-4 sm:px-8">
-  <div className="about_div max-w-7xl mx-auto py-16">
-    {/* Top Grid Section */}
-    <div className="grid gap-6 md:grid-cols-2 items-start">
-      <p className="exc text-xl font-semibold mt-1"> KlinVault</p>
-      <p className="compant text-gray-700 leading-relaxed text-base text-justify">
-        We believe a clean space is a happy, healthy space. We are founded with a passion
-        for excellence and attention to detail. Our mission is to deliver top-quality cleaning
-        services that give our clients peace of mind and more time to focus on what matters most.
-      </p>
-    </div>
+      <div className="blu px-4 sm:px-8">
+        <div className="about_div max-w-7xl mx-auto py-16">
+          {/* Top Grid Section */}
+          <div className="grid gap-6 md:grid-cols-2 items-start">
+            <p className="exc text-xl font-semibold mt-1"> KlinVault</p>
+            <p className="compant text-gray-700 leading-relaxed text-base text-justify">
+              We believe a clean space is a happy, healthy space. We are founded
+              with a passion for excellence and attention to detail. Our mission
+              is to deliver top-quality cleaning services that give our clients
+              peace of mind and more time to focus on what matters most.
+            </p>
+          </div>
 
-    {/* Image */}
-    <div className="flex justify-center my-10">
-      <img
-        className="clenn w-full max-w-xl rounded-xl"
-        src="./clean.avif"
-        alt="Cleaning illustration"
-      />
-    </div>
+          {/* Image */}
+          <div className="flex justify-center my-10">
+            <img
+              src="./clean.avif"
+              alt="Cleaning illustration"
+              className="
+      rounded-xl 
+      w-full 
+      max-w-[400px] 
+      sm:max-w-[400px] 
+      md:max-w-[600px] 
+      lg:max-w-[900px]
+      h-[250px]        /* Base height for smallest screens */
+      sm:h-[300px]     /* Slightly taller at sm (>=640px) */
+      md:h-auto        /* Full height for md and above */
+      object-cover
+    "
+            />
+          </div>
 
-    {/* Mission, Story, Vision */}
-    <div className="mission_state grid gap-8 sm:grid-cols-2 md:grid-cols-3 mt-10">
-      <div>
-        <p className="mission font-bold text-lg mb-2">Our Mission</p>
-        <p className="text-gray-700 leading-relaxed">
-          Providing top-notch cleaning services that prioritize customer satisfaction,
-          safety, and environmental sustainability.
-        </p>
+          {/* Mission, Story, Vision */}
+          <div className="mission_state grid gap-8 sm:grid-cols-2 md:grid-cols-3 mt-10">
+            <div>
+              <p className="mission font-bold text-lg mb-2">Our Mission</p>
+              <p className="text-gray-700 leading-relaxed">
+                Providing top-notch cleaning services that prioritize customer
+                satisfaction, safety, and environmental sustainability.
+              </p>
+            </div>
+            <div>
+              <p className="mission font-bold text-lg mb-2">Our Story</p>
+              <p className="text-gray-700 leading-relaxed">
+                We started with a powerful idea: create a cleaning service that
+                genuinely cares about its clients and the environment.
+              </p>
+            </div>
+            <div>
+              <p className="mission font-bold text-lg mb-2">Our Vision</p>
+              <p className="text-gray-700 leading-relaxed">
+                To be recognized as the leading cleaning service provider known
+                for our commitment to quality and customer care.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div>
-        <p className="mission font-bold text-lg mb-2">Our Story</p>
-        <p className="text-gray-700 leading-relaxed">
-          We started with a powerful idea: create a cleaning service that genuinely cares
-          about its clients and the environment.
-        </p>
-      </div>
-      <div>
-        <p className="mission font-bold text-lg mb-2">Our Vision</p>
-        <p className="text-gray-700 leading-relaxed">
-          To be recognized as the leading cleaning service provider known for our
-          commitment to quality and customer care.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
 
       <section className="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
         {/* Left Text Block */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your satisfaction is our{" "}
-            <br className="hidden md:block" />
+            Your satisfaction is our <br className="hidden md:block" />
             priority
           </h2>
           <p className="text-gray-600 mb-6">
@@ -160,9 +170,21 @@ export default function About() {
             </h2>
             <div className="grid gap-6 md:grid-cols-3 mt-10">
               {[
-                ["🧹", "Office cleaning", "Maintain a clean, productive workspace tailored to your business needs."],
-                ["🪟", "Window cleaning", "Crystal-clear cleaning that brightens your property's view."],
-                ["🧼", "Carpet cleaning", "Removes dirt and allergens, revitalizing your carpets."],
+                [
+                  "🧹",
+                  "Office cleaning",
+                  "Maintain a clean, productive workspace tailored to your business needs.",
+                ],
+                [
+                  "🪟",
+                  "Window cleaning",
+                  "Crystal-clear cleaning that brightens your property's view.",
+                ],
+                [
+                  "🧼",
+                  "Carpet cleaning",
+                  "Removes dirt and allergens, revitalizing your carpets.",
+                ],
               ].map(([icon, title, desc], index) => (
                 <div
                   key={index}
