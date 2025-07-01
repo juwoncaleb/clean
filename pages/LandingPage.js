@@ -47,10 +47,11 @@ export default function LandingPage() {
           </div>
         </div>
         <div className="px-4 sm:px-6 md:px-10 py-10">
-          <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-20">
+          <div className="flex mt-20 flex-col md:flex-row justify-between gap-12 md:gap-20">
             {/* Left Text */}
-            <p className="Ded_text text-lg font-semibold text-black leading-relaxed md:w-1/3">
-              We are a dedicated cleaning company where cleanliness meets class.
+            <p className="Ded_text  text-black  ">
+              We are a dedicated cleaning company 
+               where cleanliness meets class.
             </p>
 
             {/* Right Text and Button */}
@@ -95,17 +96,14 @@ export default function LandingPage() {
 
           <div className="div_card flex flex-col justify-between bg-[#f9f9f9] p-4 rounded-md">
             <p className="text-sm stat text-gray-600 mt-4">
-              Projects completed. Over 300+ successful projects delivered with
-              precision and care.
-            </p>
-            <p className="head_card text-2xl font-bold">300</p>
+             Residential homes , offices and warehouses cleaned in the United Kingdom            </p>
+            <p className="head_card text-2xl font-bold">50</p>
           </div>
 
           <div className="div_card flex flex-col justify-between bg-[#f9f9f9] p-4 rounded-md">
-            <p className="head_card text-2xl font-bold">300+</p>
+            <p className="head_card text-2xl font-bold">27</p>
             <p className="text-sm stat text-gray-600">
-              Projects completed. Over 300+ successful projects delivered with
-              precision and care.
+             Happy customers and family
             </p>
           </div>
         </div>

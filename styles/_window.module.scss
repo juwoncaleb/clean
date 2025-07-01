@@ -3,9 +3,10 @@
     margin-right: 3%;
 }
 .wind_head{
-    font-size: 35px;
+    font-size: 55px;
     font-weight: 500;
-    margin-top: 80px;
+    margin-top: 150px;
+    margin-bottom: 40px;
 }
 .window_img{
     width: 900px;
@@ -23,6 +24,8 @@
 }
 .window_div{
     max-width: 900px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .bold_div{
     font-weight: 500;
@@ -31,11 +34,28 @@
     height: 460px;
     width: 300px;
     margin-left: 50px;
+    margin-top: 70px;
 }
 @media only screen and (max-width: 1024px) {
 .window_img{
     width: 400px;
     margin-top: 40px;
     border-radius: 10px;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+.wind_head{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+.winnyy{
+    height: 460px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 70px;
 }
 }
