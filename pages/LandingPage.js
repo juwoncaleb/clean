@@ -34,10 +34,10 @@ export default function LandingPage() {
           <div className="relative z-10 bg-black/60 min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-12 text-white">
             {/* Left Content */}
             <div className="w-full md:w-1/2 mb-10 md:mb-0 cleanhead">
-              <h1 className="text-5xl font-bold mb-6">
+              <h1 className="landing_text font-bold mb-6">
                 You Deserve a Home That Feels Like a Sanctuary{" "}
               </h1>
-              <p className="text-lg max-w-md">
+              <p className=" max-w-md">
                 Experience top-notch cleaning services that cater to residential
                 and commercial needs. We do not cut corners, we clean them!
               </p>

@@ -5,8 +5,14 @@
 .Ded_text {
   font-size: 40px;
   font-weight: 400;
-    font-family: "Red Hat Text", sans-serif;
-
+  font-family: "Red Hat Text", sans-serif;
+}
+.landing_text {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.stat {
+  font-family: "Montserrat", sans-serif;
 }
 
 .intro_text {
@@ -60,7 +66,7 @@
   background-color: #1e1e1e;
   padding-bottom: 100px;
 }
-.depo{
+.depo {
   font-size: 20px;
   font-weight: 500;
   margin-top: 10px;
@@ -97,23 +103,27 @@
 .subt {
   color: black;
 }
-.hh{
+.hh {
   font-size: 570px;
 }
-.serc_img{
-    height: 40px;
+.serc_img {
+  height: 40px;
 }
 @media only screen and (max-width: 768px) {
-.Ded_text {
-  font-size: 25px;
-  font-weight: 600;
-}
+  .Ded_text {
+    font-size: 25px;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-.fopo {
-  font-size: 20px;
-  font-weight: 600;
-  margin-left: 40px;
+  .fopo {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  .landing_text {
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
 }
 }

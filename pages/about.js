@@ -8,7 +8,9 @@ export default function About() {
   return (
     <div className="overflow-x-hidden">
       <Headdy />
-      <div className="blu px-4 sm:px-8">
+     
+      <center>
+         <div className="blu  ">
         <div className="about_div max-w-7xl mx-auto py-16">
           {/* Top Grid Section */}
           <div className="grid gap-6 md:grid-cols-2 items-start">
@@ -22,11 +24,12 @@ export default function About() {
           </div>
 
           {/* Image */}
-          <div className="flex justify-center my-10">
-            <img
-              src="./clean.avif"
-              alt="Cleaning illustration"
-              className="
+          <center>
+            <div className="flex justify-center my-10">
+              <img
+                src="./clean.avif"
+                alt="Cleaning illustration"
+                className="
       rounded-xl 
       w-full 
       max-w-[400px] 
@@ -38,35 +41,37 @@ export default function About() {
       md:h-auto        /* Full height for md and above */
       object-cover
     "
-            />
-          </div>
+              />
+            </div>
 
-          {/* Mission, Story, Vision */}
-          <div className="mission_state grid gap-8 sm:grid-cols-2 md:grid-cols-3 mt-10">
-            <div>
-              <p className="mission font-bold text-lg mb-2">Our Mission</p>
-              <p className="text-gray-700 leading-relaxed">
-                Providing top-notch cleaning services that prioritize customer
-                satisfaction, safety, and environmental sustainability.
-              </p>
+            {/* Mission, Story, Vision */}
+            <div className="mission_state grid gap-8 sm:grid-cols-2 md:grid-cols-3 mt-14">
+              <div>
+                <p className="mission font-bold text-lg mb-2">Our Mission</p>
+                <p className="text-gray-700 leading-relaxed">
+                  Providing top-notch cleaning services that prioritize customer
+                  satisfaction, safety, and environmental sustainability.
+                </p>
+              </div>
+              <div>
+                <p className="mission font-bold text-lg mb-2">Our Story</p>
+                <p className="text-gray-700 leading-relaxed">
+                  We started with a powerful idea: create a cleaning service
+                  that genuinely cares about its clients and the environment.
+                </p>
+              </div>
+              <div>
+                <p className="mission font-bold text-lg mb-2">Our Vision</p>
+                <p className="text-gray-700 leading-relaxed">
+                  To be recognized as the leading cleaning service provider
+                  known for our commitment to quality and customer care.
+                </p>
+              </div>
             </div>
-            <div>
-              <p className="mission font-bold text-lg mb-2">Our Story</p>
-              <p className="text-gray-700 leading-relaxed">
-                We started with a powerful idea: create a cleaning service that
-                genuinely cares about its clients and the environment.
-              </p>
-            </div>
-            <div>
-              <p className="mission font-bold text-lg mb-2">Our Vision</p>
-              <p className="text-gray-700 leading-relaxed">
-                To be recognized as the leading cleaning service provider known
-                for our commitment to quality and customer care.
-              </p>
-            </div>
-          </div>
+          </center>
         </div>
       </div>
+      </center>
 
       <section className="max-w-7xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-10 items-center">
         {/* Left Text Block */}
